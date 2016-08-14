@@ -4,3 +4,6 @@ packages:
 - opaleye-sqlite/
 extra-deps:
 - postgresql-simple-0.5.1.1
+
+nix:
+  packages: [postgresql.lib, postgresql.out, openssl]
